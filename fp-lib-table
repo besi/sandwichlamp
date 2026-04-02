@@ -5,4 +5,5 @@
   (lib (name "magnetic-charger")(type "KiCad")(uri "${KIPRJMOD}/lib/magnetic-charger/magnetic-charger.pretty")(options "")(descr ""))
   (lib (name "bme280")(type "KiCad")(uri "${KIPRJMOD}/lib/bme280/bme280.pretty")(options "")(descr ""))
   (lib (name "radio-receiver")(type "KiCad")(uri "${KIPRJMOD}/lib/radio-receiver/radio-receiver.pretty")(options "")(descr ""))
+  (lib (name "lolin32")(type "KiCad")(uri "${KIPRJMOD}/lib/lolin32/lolin32.pretty")(options "")(descr ""))
 )

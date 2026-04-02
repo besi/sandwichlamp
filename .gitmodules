@@ -16,3 +16,6 @@
 [submodule "lib/radio-receiver"]
 	path = lib/radio-receiver
 	url = https://github.com/besi/kicad-radio-receiver
+[submodule "lib/lolin32"]
+	path = lib/lolin32
+	url = https://github.com/besi/kicad-lolin32

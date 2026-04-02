@@ -5,4 +5,6 @@
   (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/lib/esp32-wemos-d1-mini/esp32-wemos-d1-mini.kicad_sym")(options "")(descr ""))
   (lib (name "bme280")(type "KiCad")(uri "${KIPRJMOD}/lib/bme280/bme280.kicad_sym")(options "")(descr ""))
   (lib (name "radio-receiver")(type "KiCad")(uri "${KIPRJMOD}/lib/radio-receiver/radio-receiver.kicad_sym")(options "")(descr ""))
+  (lib (name "wemos")(type "KiCad")(uri "${KIPRJMOD}/lib/lolin32/library/wemos.kicad_sym")(options "")(descr ""))
+  (lib (name "lolin32")(type "KiCad")(uri "${KIPRJMOD}/lib/lolin32/lolin32.kicad_sym")(options "")(descr ""))
 )
