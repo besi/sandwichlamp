@@ -816,6 +816,141 @@
 				)
 			)
 		)
+		(symbol "bme280:bme280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "bme280"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bme280:bme280"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf"
+				(at 2.54 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "bme280_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "bme280_1_1"
+				(pin input line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "esp32-wemos-d1-mini:esp32-wemos-d1-mini"
 			(pin_names
 				(offset 1.016)
@@ -2252,6 +2387,232 @@
 				)
 			)
 		)
+		(symbol "radio-receiver:radio-receiver"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RX480E"
+				(at 6.35 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "radio-receiver:radio-receiver"
+				(at 17.145 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://qiachip.com/products/2x-learning-code-receiver-module-for-rf-433mhz-rx-480-e-remote-control-arduino-chip-28131mm-pcb"
+				(at 8.636 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "radio-receiver_0_1"
+				(rectangle
+					(start -4.445 7.62)
+					(end 5.715 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.175 -1.905)
+					(mid -0.9845 -0.2085)
+					(end -0.635 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.175 -0.635)
+					(mid -1.8824 0.6895)
+					(end -1.905 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -0.032 -0.975)
+					(end 0.635 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "radio-receiver_1_1"
+				(pin power_in line
+					(at 0.635 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0.635 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.255 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.255 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.255 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.255 5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.255 -5.08 180)
+					(length 2.54)
+					(name "VT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 213.36 97.79)
@@ -2259,9 +2620,31 @@
 		(color 0 0 0 0)
 		(uuid "64f7b95b-ec2b-4d9d-9da6-0ff5afa7278e")
 	)
+	(junction
+		(at 68.58 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c54d808f-ccdc-4f33-aac9-bd3da0ef92e8")
+	)
+	(junction
+		(at 68.58 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e617d3ae-594e-460c-8009-3c84575e5f35")
+	)
 	(no_connect
 		(at 232.41 93.98)
 		(uuid "25f38483-ce25-4b70-8c6d-0beb7700d390")
+	)
+	(wire
+		(pts
+			(xy 60.96 59.69) (xy 68.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0b385a-cb06-4133-88f7-cf832101618b")
 	)
 	(wire
 		(pts
@@ -2292,6 +2675,16 @@
 			(type default)
 		)
 		(uuid "acbb141e-9c69-4157-8122-879bd049c83f")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfef7142-5723-43eb-af4e-9430f1ec7cbe")
 	)
 	(wire
 		(pts
@@ -2370,6 +2763,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 60.96 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ced7cf4-03ac-4348-a6a4-d68060a978d6")
+		(property "Reference" "BT2"
+			(at 59.436 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 46.482 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 60.96 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 60.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40f7c096-afb5-48b2-b8cc-bc4cc0cc3753")
+		)
+		(pin "1"
+			(uuid "e99a5bcb-731c-465e-aa32-6e51aaa2eaf9")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 96.52 270)
 		(unit 1)
@@ -2443,10 +2906,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f8654bd-77c4-406f-b537-bdbf620495b6")
 		(property "Reference" "BT1"
-			(at 72.39 54.0384 0)
+			(at 64.516 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,12 +2917,13 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 72.39 56.5784 0)
+			(at 56.896 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
@@ -3074,6 +3537,91 @@
 		)
 	)
 	(symbol
+		(lib_id "radio-receiver:radio-receiver")
+		(at 91.44 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a677892-6758-4127-a256-7e1f94f533dd")
+		(property "Reference" "U4"
+			(at 86.36 131.4449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RX480E"
+			(at 97.79 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "radio-receiver:radio-receiver"
+			(at 108.585 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qiachip.com/products/2x-learning-code-receiver-module-for-rf-433mhz-rx-480-e-remote-control-arduino-chip-28131mm-pcb"
+			(at 100.076 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "65ae2709-d4a4-4b80-b513-dad0fd9ea280")
+		)
+		(pin "1"
+			(uuid "17e3a1eb-5aa8-48be-ac00-0ceb64c8574a")
+		)
+		(pin "2"
+			(uuid "be7e4eea-0c84-492e-b76e-02464de520d7")
+		)
+		(pin "5"
+			(uuid "8e61be3a-21af-4a0c-b3a9-f9c021ebf1f0")
+		)
+		(pin "3"
+			(uuid "5c6c0d02-ee4a-4ad8-a727-56dc87004270")
+		)
+		(pin "4"
+			(uuid "5fb86373-8e38-40bf-8439-803369f0dd20")
+		)
+		(pin "7"
+			(uuid "d7e090b2-2f6d-437b-b769-d1f6fa74f733")
+		)
+		(instances
+			(project ""
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 105.41 0)
 		(unit 1)
@@ -3560,6 +4108,82 @@
 			(project "sandwichlamp"
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bme280:bme280")
+		(at 127 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e23e2e-a125-49af-a3f6-0c935df9fa70")
+		(property "Reference" "U5"
+			(at 133.35 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "bme280"
+			(at 133.35 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bme280:bme280"
+			(at 128.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd2d2241-b5bf-4eb8-ab63-27dc74d4ae09")
+		)
+		(pin "3"
+			(uuid "901ad8ae-549a-4a57-ba3f-21abe1821718")
+		)
+		(pin "4"
+			(uuid "8f94a8b2-72da-4fff-b5b9-6f7a904c9ac4")
+		)
+		(pin "2"
+			(uuid "1e093d09-0f38-4e5d-80f2-92a35398f79d")
+		)
+		(instances
+			(project ""
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "U5")
 					(unit 1)
 				)
 			)
