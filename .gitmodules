@@ -19,3 +19,6 @@
 [submodule "lib/lolin32"]
 	path = lib/lolin32
 	url = https://github.com/besi/kicad-lolin32
+[submodule "lib/as12ap"]
+	path = lib/as12ap
+	url = https://github.com/besi/kicad-as12ap
