@@ -3599,9 +3599,31 @@
 		)
 		(uuid "c75d5c10-d708-499d-9c1b-a9a576e6b37e")
 	)
+	(global_label "OneWire"
+		(shape input)
+		(at 97.79 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0162a22e-05e8-4c3d-ae98-a6378087c222")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.2743 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Enable12V"
 		(shape input)
-		(at -35.56 109.22 0)
+		(at 237.49 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3611,12 +3633,34 @@
 		)
 		(uuid "09302bf2-09ae-48fd-9487-6b15d4b3a7b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -22.7174 109.22 0)
+			(at 250.3326 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BatterySens"
+		(shape input)
+		(at 190.5 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19154cdc-8d95-4e24-ae39-fe1e6454ab01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.3268 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3687,6 +3731,28 @@
 			)
 		)
 	)
+	(global_label "OneWire"
+		(shape input)
+		(at 191.77 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42d565ab-5059-4f9e-97b5-fabf00647704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.2857 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 80.01 116.84 180)
@@ -3705,6 +3771,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BatterySens"
+		(shape input)
+		(at 120.65 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4969544a-0f21-45e8-b15c-dbc8eed588d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.8232 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3843,7 +3931,7 @@
 	)
 	(global_label "Touch2"
 		(shape input)
-		(at -45.72 68.58 0)
+		(at 236.22 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3853,7 +3941,7 @@
 		)
 		(uuid "971a4ef8-e54e-49c8-9fe1-ee05746d18af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -36.0221 68.58 0)
+			(at 245.9179 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4019,7 @@
 	)
 	(global_label "Touch3"
 		(shape input)
-		(at -44.45 78.74 0)
+		(at 237.49 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3941,7 +4029,7 @@
 		)
 		(uuid "d42bc89a-840b-428f-9c2b-411baffa75b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -34.7521 78.74 0)
+			(at 247.1879 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4085,7 @@
 	)
 	(global_label "Touch1"
 		(shape input)
-		(at -45.72 57.15 0)
+		(at 236.22 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4007,7 +4095,7 @@
 		)
 		(uuid "fd9c5fb4-e94c-4d17-9c1b-c9c5029f3c23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -36.0221 57.15 0)
+			(at 245.9179 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,6 +4834,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a6e5eb5-a272-4ad8-92ad-f8752be529a5")
+		(property "Reference" "#PWR027"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b9bfc48-aaf4-47d6-8df7-49a071d7e052")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c5a56b2-379d-464b-bfa3-c770f423920d")
+		(property "Reference" "R6"
+			(at 122.936 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.936 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 118.872 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2a1bbd-937b-49b6-b234-d078abcc2035")
+		)
+		(pin "2"
+			(uuid "551ea5ca-f957-479d-9163-968c5e1c225f")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 26.67 78.74 0)
 		(unit 1)
@@ -4810,6 +5034,72 @@
 			(project "sandwichlamp"
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 120.65 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d9f0d2f-3d74-4491-91e8-74f6fe5abb8f")
+		(property "Reference" "#PWR028"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+4V"
+			(at 120.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e40c1fa-af6f-437f-bf8c-68dc15e485b6")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5344,7 +5634,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at -50.8 57.15 0)
+		(at 231.14 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5353,7 +5643,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c1b1de4-9c49-4add-a5ed-facd0befb4b4")
 		(property "Reference" "J1"
-			(at -50.165 52.07 0)
+			(at 231.775 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5651,7 @@
 			)
 		)
 		(property "Value" "Pole1"
-			(at -50.165 54.61 0)
+			(at 231.775 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5659,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly"
-			(at -50.8 57.15 0)
+			(at 231.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -50.8 57.15 0)
+			(at 231.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5677,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at -50.8 57.15 0)
+			(at 231.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5894,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at -49.53 78.74 0)
+		(at 232.41 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5613,7 +5903,7 @@
 		(fields_autoplaced yes)
 		(uuid "80202e29-cd64-45c0-b0de-c04e06ba4d05")
 		(property "Reference" "J3"
-			(at -48.895 73.66 0)
+			(at 233.045 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5911,7 @@
 			)
 		)
 		(property "Value" "Pole3"
-			(at -48.895 76.2 0)
+			(at 233.045 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5919,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly"
-			(at -49.53 78.74 0)
+			(at 232.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -49.53 78.74 0)
+			(at 232.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5937,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at -49.53 78.74 0)
+			(at 232.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,6 +5952,76 @@
 			(project "sandwichlamp"
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8472d2dc-3017-401f-9af8-4050fb72ffde")
+		(property "Reference" "R5"
+			(at 122.936 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.936 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 118.872 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b7d2526-cb0f-4fb4-a2db-caa49ec31629")
+		)
+		(pin "2"
+			(uuid "9f854bd8-425e-42d5-b6c5-7c952bec59e9")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6042,7 +6402,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at -40.64 109.22 0)
+		(at 232.41 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6051,7 +6411,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1b49b4d-4511-48d0-963f-a4851f706d51")
 		(property "Reference" "J4"
-			(at -40.005 104.14 0)
+			(at 233.045 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6419,7 @@
 			)
 		)
 		(property "Value" "12V Enable"
-			(at -40.005 106.68 0)
+			(at 233.045 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6427,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at -40.64 109.22 0)
+			(at 232.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -40.64 109.22 0)
+			(at 232.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6445,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at -40.64 109.22 0)
+			(at 232.41 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6893,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:DS18B20")
-		(at -30.48 157.48 0)
+		(at 90.17 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6542,7 +6902,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5078be5-744e-44c4-9205-ac692fbde467")
 		(property "Reference" "U6"
-			(at -36.83 156.2099 0)
+			(at 83.82 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6911,7 @@
 			)
 		)
 		(property "Value" "DS18B20"
-			(at -36.83 158.7499 0)
+			(at 83.82 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6920,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at -55.88 163.83 0)
+			(at 64.77 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,7 +6929,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at -34.29 151.13 0)
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6938,7 @@
 			)
 		)
 		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at -30.48 157.48 0)
+			(at 90.17 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +7104,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at -50.8 68.58 0)
+		(at 231.14 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6753,7 +7113,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2969570-38de-4c65-a3cd-c156e292e720")
 		(property "Reference" "J2"
-			(at -50.165 63.5 0)
+			(at 231.775 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +7121,7 @@
 			)
 		)
 		(property "Value" "Pole2"
-			(at -50.165 66.04 0)
+			(at 231.775 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +7129,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly"
-			(at -50.8 68.58 0)
+			(at 231.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +7138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -50.8 68.58 0)
+			(at 231.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +7147,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at -50.8 68.58 0)
+			(at 231.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
