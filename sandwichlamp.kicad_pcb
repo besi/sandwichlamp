@@ -4122,6 +4122,14 @@
 			(pintype "bidirectional")
 			(uuid "9ac27b7a-9e04-4d69-9e84-22d9e41365ed")
 		)
+		(pad "37" thru_hole oval
+			(at -13.6 20.8 270)
+			(size 3 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1d7e7d2e-a387-4955-b12e-9c1aa8696f6e")
+		)
 		(model "${KIPRJMOD}/lib/lolin32/lolin32.step"
 			(offset
 				(xyz 0 2.54 4)
