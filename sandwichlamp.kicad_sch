@@ -3773,6 +3773,10 @@
 		(uuid "e617d3ae-594e-460c-8009-3c84575e5f35")
 	)
 	(no_connect
+		(at 130.81 80.01)
+		(uuid "095e3a39-55d7-40be-aa94-0626411ddb4f")
+	)
+	(no_connect
 		(at 31.75 60.96)
 		(uuid "16022054-e5c8-4754-a548-6010b7c5f23d")
 	)
@@ -3783,6 +3787,38 @@
 	(no_connect
 		(at 156.21 85.09)
 		(uuid "33bf7b1b-f960-40b7-b081-7b1aca11ada2")
+	)
+	(no_connect
+		(at 156.21 105.41)
+		(uuid "3de3cf11-ea2b-41ee-b47b-ced1d1c88634")
+	)
+	(no_connect
+		(at 156.21 59.69)
+		(uuid "3e0ad7eb-0651-466e-9c29-5e9e41d88320")
+	)
+	(no_connect
+		(at 156.21 69.85)
+		(uuid "659ca46c-5f3e-473e-984d-af5cc2b81cff")
+	)
+	(no_connect
+		(at 130.81 77.47)
+		(uuid "8d3ba636-8db3-43ed-84f4-56b22bb17504")
+	)
+	(no_connect
+		(at 156.21 67.31)
+		(uuid "8fe89098-46d6-481a-868c-f902cefeea36")
+	)
+	(no_connect
+		(at 130.81 59.69)
+		(uuid "a973f246-f63d-45dd-bc98-8161c6818905")
+	)
+	(no_connect
+		(at 156.21 62.23)
+		(uuid "cf817b88-47b2-46d1-8ce4-c13e0dffcaa1")
+	)
+	(no_connect
+		(at 156.21 90.17)
+		(uuid "e1198874-4836-4a38-a99d-4b843d848d69")
 	)
 	(wire
 		(pts
@@ -8372,73 +8408,6 @@
 			(project "sandwichlamp"
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+4V")
-		(at 130.81 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9f7306a-dd36-488f-ab4f-c848525ff0b2")
-		(property "Reference" "#PWR015"
-			(at 134.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+4V"
-			(at 127 100.3301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b6f1f32-876a-4836-ae59-28057d9350f7")
-		)
-		(instances
-			(project "sandwichlamp"
-				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
