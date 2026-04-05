@@ -1967,8 +1967,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U7"
-				(at -0.508 26.924 0)
+			(property "Reference" "U"
+				(at 0 26.67 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1976,7 +1976,7 @@
 				)
 			)
 			(property "Value" "Lolin32"
-				(at -4.826 -23.368 0)
+				(at -5.08 -21.082 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1984,16 +1984,15 @@
 				)
 			)
 			(property "Footprint" "lolin32:lolin32"
-				(at 0 30.48 0)
+				(at 0 29.718 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://mischianti.org/esp32-wemos-lolin32-high-resolution-pinout-and-specs/"
-				(at 0 27.94 0)
+				(at 6.096 -30.988 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2017,19 +2016,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(symbol "lolin32_0_1"
-				(rectangle
-					(start -10.16 -16.51)
-					(end -3.81 -21.59)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
 				)
 			)
 			(symbol "lolin32_1_1"
@@ -2440,10 +2426,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 19.05 0)
 					(length 2.54)
-					(name "36/VP"
+					(name "I36/VP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2585,27 +2571,9 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -19.05 0)
-					(length 2.54)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -12.7 16.51 0)
 					(length 2.54)
-					(name "39/VN"
+					(name "I39/VN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2656,10 +2624,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 8.89 0)
 					(length 2.54)
-					(name "34"
+					(name "I34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2674,10 +2642,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 6.35 0)
 					(length 2.54)
-					(name "35"
+					(name "I35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6398,9 +6366,6 @@
 		)
 		(pin "25"
 			(uuid "2e3abc0b-5816-4375-8649-619fc481e1ec")
-		)
-		(pin "37"
-			(uuid "83eedab5-f9aa-4009-bcd9-372239de310e")
 		)
 		(instances
 			(project ""
