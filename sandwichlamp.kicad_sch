@@ -3761,12 +3761,6 @@
 		(uuid "c54d808f-ccdc-4f33-aac9-bd3da0ef92e8")
 	)
 	(junction
-		(at 144.78 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e36d9ab6-9e4f-4c60-b9d8-36aa439cab1d")
-	)
-	(junction
 		(at 34.29 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3872,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 60.96) (xy 41.91 68.58)
+			(xy 41.91 67.31) (xy 41.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3882,7 +3876,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 157.48) (xy 144.78 154.94)
+			(xy 144.78 148.59) (xy 144.78 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3952,13 +3946,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 154.94) (xy 144.78 148.59)
+			(xy 139.7 149.86) (xy 139.7 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c89f8f71-6a3c-4713-9ebc-2cb062e3577d")
+		(uuid "e28d7ca3-2cd0-4aa8-ae14-151c6be56280")
 	)
 	(global_label "OneWire"
 		(shape input)
@@ -5153,7 +5147,7 @@
 	)
 	(symbol
 		(lib_id "power:+4V")
-		(at 139.7 148.59 180)
+		(at 139.7 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5162,7 +5156,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bdedb47-d75c-4db7-a62e-44a6829b1e62")
 		(property "Reference" "#PWR03"
-			(at 139.7 144.78 0)
+			(at 139.7 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5165,7 @@
 			)
 		)
 		(property "Value" "+4V"
-			(at 139.7 153.67 0)
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 148.59 0)
+			(at 139.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 148.59 0)
+			(at 139.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 139.7 148.59 0)
+			(at 139.7 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,73 +5271,6 @@
 			(project "sandwichlamp"
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 35.56 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ed2bbc0-04c7-4c7b-8907-808176e6c7c5")
-		(property "Reference" "#PWR09"
-			(at 31.75 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b7b6ff6-e710-4228-92b2-7f246df5ccca")
-		)
-		(instances
-			(project "sandwichlamp"
-				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6414,7 +6341,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 144.78 157.48 180)
+		(at 144.78 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6423,7 +6350,7 @@
 		(fields_autoplaced yes)
 		(uuid "54291e66-1534-4556-b357-40655e5b858b")
 		(property "Reference" "#PWR02"
-			(at 144.78 153.67 0)
+			(at 144.78 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6359,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 144.78 162.56 0)
+			(at 144.78 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 157.48 0)
+			(at 144.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 157.48 0)
+			(at 144.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 157.48 0)
+			(at 144.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,6 +8341,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 41.91 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb680be5-765e-4d83-adc6-4e54ef4b0b4f")
+		(property "Reference" "#PWR014"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4f363b5-5aa3-45eb-a78c-5789117c2b5d")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 80.01 111.76 90)
 		(unit 1)
@@ -8551,72 +8544,6 @@
 			(project ""
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 41.91 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddfa1de6-6034-4c6d-b4c5-c6f00fcbc6ae")
-		(property "Reference" "#PWR014"
-			(at 41.91 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 41.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 41.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dc748af-5884-435c-a8a8-64c5d695650a")
-		)
-		(instances
-			(project ""
-				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8924,71 +8851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 144.78 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea6141bb-7002-401e-b194-f7f1ea36c32c")
-		(property "Reference" "#PWR034"
-			(at 140.97 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 150.368 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 144.78 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efc99b60-1d9d-40aa-a8f3-52a3ddcf8dd0")
-		)
-		(instances
-			(project "sandwichlamp"
-				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 49.53 73.66 270)
 		(unit 1)
@@ -9187,6 +9049,73 @@
 			(project ""
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 35.56 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdf5d9df-50ba-4f60-bdb2-bdd87df35ba8")
+		(property "Reference" "#PWR09"
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac5ce773-14eb-40f8-8dfc-198fdf15dd30")
+		)
+		(instances
+			(project ""
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
