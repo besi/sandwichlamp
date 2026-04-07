@@ -1967,8 +1967,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 26.67 0)
+			(property "Reference" "U7"
+				(at -0.508 26.924 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1976,7 +1976,7 @@
 				)
 			)
 			(property "Value" "Lolin32"
-				(at -5.08 -21.082 0)
+				(at -4.826 -23.368 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1984,15 +1984,16 @@
 				)
 			)
 			(property "Footprint" "lolin32:lolin32"
-				(at 0 29.718 0)
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://mischianti.org/esp32-wemos-lolin32-high-resolution-pinout-and-specs/"
-				(at 6.096 -30.988 0)
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2563,6 +2564,24 @@
 						)
 					)
 					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -19.05 0)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6330,6 +6349,9 @@
 		(pin "25"
 			(uuid "2e3abc0b-5816-4375-8649-619fc481e1ec")
 		)
+		(pin "37"
+			(uuid "b82eefef-e73f-4cea-98d8-7bb28df851ae")
+		)
 		(instances
 			(project ""
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
@@ -8544,6 +8566,73 @@
 			(project ""
 				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 130.81 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da5552c4-9f4d-4859-a911-e49dd862cc06")
+		(property "Reference" "#PWR015"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+4V"
+			(at 127 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f00d8ac-0c21-45ac-8a58-8a5f53d7b5cc")
+		)
+		(instances
+			(project "sandwichlamp"
+				(path "/e0ec050d-3d79-41e4-bfa7-38c68df5e8aa"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

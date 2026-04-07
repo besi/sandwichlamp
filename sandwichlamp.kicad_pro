@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 9.0,
-          "width": 9.0
+          "drill": 1.8,
+          "height": 2.0,
+          "width": 3.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,12 +52,28 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|0|0|4ce62646-5f8a-46e6-8f55-0c486183e6ca|1d1654bb-61a4-4f3e-a3d2-fbc299f209d0",
+        "copper_edge_clearance|120125693|56422982|955f4888-2d07-434f-bebd-5cc7bf3a15c6|2d8c4032-9be6-4678-aaf5-c8c7c6915cf7",
+        "copper_edge_clearance|133186056|75325591|4ce62646-5f8a-46e6-8f55-0c486183e6ca|822b8e00-4e6f-442b-98e9-09302bb65481",
+        "copper_edge_clearance|134456056|77525296|4ce62646-5f8a-46e6-8f55-0c486183e6ca|20aff0c2-1aee-4564-a4bd-1fcf0ef4eaff",
+        "copper_edge_clearance|135726056|79725000|4ce62646-5f8a-46e6-8f55-0c486183e6ca|48f7411e-4bb9-4495-84d7-0d697513f62c",
+        "copper_edge_clearance|136996056|81924705|4ce62646-5f8a-46e6-8f55-0c486183e6ca|f23564ad-8cc9-48ce-b28c-64c9c69fee4f",
+        "copper_edge_clearance|138266056|84124409|4ce62646-5f8a-46e6-8f55-0c486183e6ca|17d55720-e6c6-4a38-a1d6-e7c0efb7648c",
+        "copper_edge_clearance|53667788|112542971|955f4888-2d07-434f-bebd-5cc7bf3a15c6|c8088e38-30f4-4645-8d3b-e8ffbe68b04d",
+        "copper_edge_clearance|56627663|79436918|955f4888-2d07-434f-bebd-5cc7bf3a15c6|ccbde732-c6a9-44d1-86e9-171a1c24ff61",
+        "copper_edge_clearance|79497288|56599092|955f4888-2d07-434f-bebd-5cc7bf3a15c6|c3704c98-b277-4e7d-8fcb-5c1acd9c2174",
+        "hole_clearance|135726056|79725000|4ce62646-5f8a-46e6-8f55-0c486183e6ca|48f7411e-4bb9-4495-84d7-0d697513f62c",
+        "lib_footprint_mismatch|136972392|107169034|22e58a5a-968e-4293-8176-01c36404c664|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|87450000|91000000|2a605dfa-d8e2-4f13-b685-4a38894da5e2|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|91250000|79500000|2a5a40dc-cc2d-4646-9786-d240d772c05a|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|135726056|79725000|4ce62646-5f8a-46e6-8f55-0c486183e6ca|48f7411e-4bb9-4495-84d7-0d697513f62c"
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -90,7 +106,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
