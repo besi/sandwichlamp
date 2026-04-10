@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 2.0,
-          "width": 3.5
+          "drill": 1.0,
+          "height": 1.74,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plot",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "sandwichlamp.step",
