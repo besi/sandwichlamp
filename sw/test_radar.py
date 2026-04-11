@@ -14,7 +14,7 @@ boardled = Pin(13, Pin.OUT)
 boardled.off()
 
 print('-----------CONFIGURATION----------------')
-uart1 = UART(1, baudrate = 256000, tx=Pin(12), rx=Pin(27), timeout = 1)
+uart1 = UART(1, baudrate = 256000, tx=Pin(27), rx=Pin(12), timeout = 1)
 print(uart1)
 
 human_sensor = ld2410.LD2410(uart1)
@@ -44,4 +44,4 @@ while True:
     human_sensor.send_command_report_data()
     #human_sensor.print_meas()
     human_sensor.human_detection(boardled,50,50)
-    utime.sleep(3)
+    utime.sleep(.1)
