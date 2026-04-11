@@ -10,4 +10,4 @@ while True:
     touch_value2 = touch_pin2.read()
     touch_value3 = touch_pin3.read()    
     print(touch_value1, touch_value2, touch_value3)
-    time.sleep_ms(500)
+    time.sleep_ms(90)
