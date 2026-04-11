@@ -2134,6 +2134,7 @@
 			)
 		)
 		(symbol "lolin32:lolin32"
+			(pin_numbers hide)
 			(pin_names
 				(offset 1.016)
 			)
