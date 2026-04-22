@@ -20,7 +20,7 @@ print(uart1)
 human_sensor = ld2410.LD2410(uart1)
 print('----------------------------------------')
 human_sensor.enable_config()
-human_sensor.Maximum_distance_gate_and_unoccupied_duration_parameters_configuration(2,2,50) # 2-->8,2-->8,0-->65535 
+#human_sensor.Maximum_distance_gate_and_unoccupied_duration_parameters_configuration(2,2,50) # 2-->8,2-->8,0-->65535 
 #human_sensor.read_parameter()
 human_sensor.distance_gate_sensitivity_configuration(1,4,4)
 human_sensor.read_firmware_version()
