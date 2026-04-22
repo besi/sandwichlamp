@@ -22,7 +22,7 @@ print('----------------------------------------')
 human_sensor.enable_config()
 #human_sensor.Maximum_distance_gate_and_unoccupied_duration_parameters_configuration(2,2,50) # 2-->8,2-->8,0-->65535 
 #human_sensor.read_parameter()
-human_sensor.distance_gate_sensitivity_configuration(1,4,4)
+#human_sensor.distance_gate_sensitivity_configuration(1,4,4)
 human_sensor.read_firmware_version()
 #human_sensor.set_serial_port_baud_rate(0x0007) #0007 --> 256000 ,  0x0005-->115200
 #human_sensor.restore_factory_settings()
