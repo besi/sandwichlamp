@@ -14,7 +14,7 @@ boardled = Pin(13, Pin.OUT)
 boardled.off()
 
 print('-----------CONFIGURATION----------------')
-uart1 = UART(1, baudrate = 256000, tx=Pin(27), rx=Pin(12), timeout = 1)
+uart1 = UART(1, baudrate = 256000, tx=Pin(27), rx=Pin(12), timeout = 3)
 print(uart1)
 
 human_sensor = ld2410.LD2410(uart1)
