@@ -1,4 +1,5 @@
 import machine
+import asyncio
 from neopixel import NeoPixel
 import time
 
@@ -6,7 +7,7 @@ pixelCount = 44
 np = NeoPixel(machine.Pin(18), pixelCount)
 
 
-def rainbow():
+async def rainbow():
     # Rainbow code by https://wokwi.com/arduino/projects/305569065545499202
 
     rainbow = [
@@ -24,6 +25,6 @@ def rainbow():
         for i in range(pixelCount):
             np[i] = rainbow[i]
             np.write()
+            await asyncio.sleep(.01)
 
-
-rainbow()
+asyncio.run(rainbow())
