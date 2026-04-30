@@ -6,15 +6,15 @@ touch1_pin = 14
 touch2_pin = 32
 touch3_pin = 4
 
-
-ESP32Touch.threshold(70)  # optional
-lamp = machine.Pin(13, machine.Pin.OUT)
+ESP32Touch.threshold(80)
+lamp = Pin(13, Pin.OUT)
 
 mode = 1
 
 def mode1():
     global mode
     mode = 1
+    print("toggle lamp")
     lamp.value(1-lamp.value())
     
 def mode2():
@@ -40,4 +40,5 @@ async def main():
         await asyncio.sleep(1)
 
 asyncio.run(main())
+
 
