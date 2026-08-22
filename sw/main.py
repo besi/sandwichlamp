@@ -19,9 +19,6 @@ enable12v_pin = 13
 pwm_start = 610
 pwm_end = 1020
 pwm_steps = (pwm_end-pwm_start)/20
-
-ESP32Touch.threshold(90)
-
 pwm = PWM(Pin(enable12v_pin), freq=1000)          # create a PWM object on a pin
 
 
@@ -78,6 +75,7 @@ def button(number):
     np.write()
     
 async def main():
+    ESP32Touch.threshold(95)
     t1 = ESP32Touch(Pin(touch1_pin), suppress=True)
     t1.release_func(lambda : down())
     t2 = ESP32Touch(Pin(touch2_pin), suppress=True)
