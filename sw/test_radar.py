@@ -19,8 +19,12 @@ human_sensor.read_firmware_version()
 #human_sensor.bluetooth_setting(0x0001)  #0x0001-->ON 0x0000-->OFF 
 human_sensor.get_mac_address()
 #human_sensor.set_bluetooth_password()
-human_sensor.distance_resolution_setting(0x0000)
+
+# Distance_resolution_setting 0.2m  with value 1
+# Distance_resolution_setting 0.75m with value 0
 #human_sensor.query_distance_resolution_setting()
+human_sensor.distance_resolution_setting(1)
+
 human_sensor.end_config()
 #human_sensor.enable_engineering_mode()
 #human_sensor.end_engineering_mode()
