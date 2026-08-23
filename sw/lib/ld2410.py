@@ -506,13 +506,14 @@ class LD2410() :
                 utime.sleep(0.1)
         elif self.meas['stationary_energy']>seuil_stat or self.meas['moving_energy']>seuil_mov :
             if self.meas['stationary_distance']<self.meas['moving_distance'] :
-                print(f"distance [cm]: {self.meas['stationary_distance']}, mobile: {0}")
+                print(f"distance: {self.meas['stationary_distance']}, mobile: {0}")
             else :
-                print(f"distance [cm]: {self.meas['moving_distance']}, mobile: {100}")
+                print(f"distance: {self.meas['moving_distance']}, mobile: {100}")
             led.on()
             return 1
         else :     
-            print(f"distance [cm]: {0}, mobile: {0}")
+            print(f"distance: {0}, mobile: {0}")
             led.off()
             return 0
+
 
