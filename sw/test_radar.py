@@ -2,7 +2,7 @@ from machine import Pin, UART
 import utime
 import ld2410
 
-boardled = Pin(13, Pin.OUT)
+boardled = Pin(5, Pin.OUT)
 boardled.off()
 
 print('-----------CONFIGURATION----------------')
